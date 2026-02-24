@@ -8,7 +8,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open('C://Users//Yuri//Desktop//Deploying ml models/House price prediction/House_price.sav', 'rb'))
+model = pickle.load(open('House_price.sav', 'rb'))
 
 st.title("Boston Housing Price Predictor (1970s data ⚠️)")
 
@@ -38,5 +38,6 @@ if st.button("Predict House Price"):
     
     st.success(f"Estimated median house value: **${pred*1000:,.0f}** (in ~1970 dollars)")
     st.info("Note: This is historical Boston data — not current prices!")
+
 
 
