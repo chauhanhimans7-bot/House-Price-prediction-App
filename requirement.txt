@@ -1,6 +1,7 @@
 streamlit          # or just streamlit (cloud will use recent)
 numpy
-xgboost            # or exact: xgboost==2.1.1 (check your local version with pip show xgboost)
+xgboost== 3.1.6          # or exact: xgboost==2.1.1 (check your local version with pip show xgboost)
 pandas                     # if you use it anywhere
 scikit-learn               # often needed for preprocessing in Boston models
+
 
