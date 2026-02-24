@@ -1,0 +1,4 @@
+streamlit
+numpy
+xgboost # or whatever version you used (e.g., xgboost==2.0.3 if specific)
+scikit-learn  # if your model uses it (common for preprocessing)
